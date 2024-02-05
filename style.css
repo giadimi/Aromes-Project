@@ -1,0 +1,431 @@
+body {
+    background-color: #F3F1F0;
+    background-image: url(Images/background-image.png);
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+h2 {
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+h3 {
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h4 {
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h5 {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    height: 150px;
+}
+
+.grid-1 {
+    display: flex;
+    align-items: center;
+}
+
+.grid-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-3 {
+    text-align: right;
+}
+
+.hamburger {
+    margin-left: 91px;
+    width: 32px;
+    height: 26.827px;
+}
+
+#quiz-button {
+    border-radius: 30px;
+    background: #E2DFDF;
+    border: none;
+    padding: 10px 40px;
+    margin-left: 57px;
+    color: #000;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.logo {
+    display: flex;
+    width: 160px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    width: 32.576px;
+    height: 32.649px;
+    margin-right: 40px;
+}
+
+.search-icon {
+    width: 26px;
+    height: 26.277px;
+    margin-right: 68px;
+}
+
+nav hr {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    border: none;
+    height: 1px;
+    position: absolute;
+    left: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 764px;
+}
+
+.left {
+    width: 50%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left img {
+    width: 647px;
+    height: 764px;
+}
+
+.right {
+    width: 50%;
+    padding: 20px;
+    padding-left: 73px;
+}
+
+.right h2 {
+    line-height: 50%;
+}
+
+.right p {
+    margin-top: 50px;
+}
+
+.h2 {
+    padding-bottom: 5px;
+}
+
+.hero-text-wrap {
+    width: 80%;
+    padding-top: 15%;
+}
+
+.discovery-journey {
+    display: inline-flex;
+    padding: 13px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    background: #E2DFDF;
+    border: none;
+    color: #000;
+    font-family: "Neue Haas Grotesk Display Pro";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.hero hr {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    height: 1px;
+    position: absolute;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.compare h2 {
+    padding: 5%;
+}
+
+.compare-grid {
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.compare img {
+    width: 329px;
+    height: 336px;
+}
+
+.bubbles {
+    display: inline-flex;
+    height: 40px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+    margin-right: 8px;
+}
+
+.compare-grid h4 {
+    padding-top: 2%;
+    line-height: 0;
+}
+
+.compare-grid h5 {
+    line-height: 10%;
+}
+
+.compare-grid .details-grid h5 {
+    margin-top: 27%;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 70%;
+    align-items: start;
+    margin-top: 5%;
+}
+
+.grid-item1 {
+    align-self: flex-start;
+}
+
+.grid-item3, .grid-item4 {
+    margin-top: 0;
+}
+
+.compare-button {
+    display: inline-flex;
+    padding: 13px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #E2DFDF;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.compare hr {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    height: 1px;
+    position: absolute;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 704px;
+    width: 100%;
+}
+
+.left-discover {
+    width: 50%;
+    display: flex;
+    left: 0;
+    padding: 0;
+    border: 0;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.left-discover img {
+    width: 186px;
+    height: 186px;
+}
+
+.discover-content {
+    padding: 5%;
+    margin: 5%;
+    width: 70%;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.right-discover {
+    width: 50%;
+    display: inline-flex;
+    float: right;
+    margin: 0;
+}
+
+.right-discover img {
+    width: 100%;
+    height: auto;
+}
+
+.discover-button {
+    display: inline-flex;
+    padding: 13px 56px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #E2DFDF;
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.footer-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer-left {
+    padding-left: 10%;
+    padding-right: 25%;
+    padding-top: 10%;
+}
+
+.footer-middle {
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.ig-footer {
+    width: 317px;
+    height: 317px;
+}
+
+.footer-right {
+    text-align: right;
+    padding-right: 20%;
+    padding-top: 10%;
+}
+
+.instagram {
+    width: 39px;
+    height: 40px;
+    padding-top: 5%;
+    padding-bottom: 20%;
+}
+
+.footer hr {
+    width: 100%;
+    background-color: #000;
+    border: none;
+    height: 1px;
+    margin: 0;
+}
+
+.footer-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    border-radius: 20px;
+    border: 1px solid #582500;
+    background-color: transparent;
+    width: 304px;
+    height: 36px;
+}
+
+.submit-button {
+    display: inline-flex;
+    height: 40px;
+    padding: 10px 30px;
+    width: 115px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #C4C4C4;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
