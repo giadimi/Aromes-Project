@@ -1,3 +1,11 @@
+function openNav() {
+    document.getElementById("mySidenav").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("mySidenav").style.display = "none";
+  }
+
 const slideContainer = document.querySelector(".slider");
 const slidesFlex = document.querySelector(".slides-flex");
 const navigation = document.querySelector(".navigation");
