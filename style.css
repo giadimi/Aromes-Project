@@ -1144,4 +1144,20 @@ input {
         padding-top: 0;
         padding-bottom: 5%;
     }
+
+    .footer hr {
+        margin-top: 10%;
+    }
+
+    .discover-button {
+        margin-bottom: 10%;
+    }
+
+    .compare-button {
+        margin-bottom: 10%;
+    }
+
+    .navigation {
+        bottom: 12%;
+    }
 }
